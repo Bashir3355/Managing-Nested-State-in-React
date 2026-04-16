@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9a97a0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: white; 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
