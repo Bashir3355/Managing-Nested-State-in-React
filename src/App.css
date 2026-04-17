@@ -1,16 +1,29 @@
 body {
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #9a97a0;
-  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default browser margin */
+  min-height: 100vh; /* Make the page fill the whole screen height */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center content left to right */
+  align-items: center; /* Center content top to bottom */
+  background: lightblue; /* Set a light blue background */
+  font-family: Arial, sans-serif; /* Use a simple font */
 }
 
-.container {
-  background: white; 
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
+.box {
+  width: 320px; /* Set the width of the gallery box */
+  padding: 20px; /* Add space inside the box */
+  text-align: center; /* Center the text */
+  background: white; /* Set the box background to white */
+  border-radius: 10px; /* Round the box corners */
+}
+
+img {
+  width: 100%; /* Make the image fill the box width */
+  height: 220px; /* Give the image a fixed height */
+  object-fit: cover; /* Keep the image looking good without stretching */
+  border-radius: 10px; /* Round the image corners */
+}
+
+button {
+  margin: 5px; /* Add space around buttons */
+  padding: 10px; /* Add space inside buttons */
 }

@@ -1,18 +1,8 @@
-// Import the CSS file for styling
-import "./App.css";
+import "./App.css"; // Import the CSS file for styling the app
+import Gallery from "./Gallery"; // Import the Gallery component
 
-// Import the UserProfile component from the same folder
-import UserProfile from "./UserProfile.jsx";
+function App() { // Create the main App component
+  return <Gallery />; // Show the Gallery component on the screen
+} // End of App component
 
-// Main App component
-function App() {
-  return (
-    <div>
-      {/* Show the UserProfile component */}
-      <UserProfile />
-    </div>
-  );
-}
-
-// Export App so main.jsx can use it
-export default App;
+export default App; // Export App so main.jsx can render it
